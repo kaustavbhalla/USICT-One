@@ -1,6 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Global Tailwind styles */
+@theme {
+  --color-sky-custom: #C3EBFA;
+  --color-sky-light-custom: #EDF9FD;
+  --color-purple-custom: #CFCEFF;
+  --color-purple-light-custom: #F1F0FF;
+  --color-yellow-custom: #FAE27C;
+  --color-yellow-light-custom: #FEFCE8;
+
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+}
 
 /* Custom scrollbar styles */
 .custom-scrollbar {
