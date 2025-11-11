@@ -9,7 +9,7 @@ const Announcements = () => {
         </div>
 
         <div className='flex flex-col gap-4 mt-4'>
-            <div className='bg-skyLightCustom rounded-md p-4'>
+            <div className='bg-sky-light-custom rounded-md p-4'>
                 <div className='flex items-center justify-between'>
                     <h2 className='font-medium'>Lorem, ipsum dolor sit amet</h2>
                     <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>2025-01-01</span>
@@ -21,7 +21,7 @@ const Announcements = () => {
         </div>
 
         <div className='flex flex-col gap-4 mt-4'>
-            <div className='bg-purpleLightCustom rounded-md p-4'>
+            <div className='bg-purple-light-custom rounded-md p-4'>
                 <div className='flex items-center justify-between'>
                     <h2 className='font-medium'>Lorem, ipsum dolor sit amet</h2>
                     <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>2025-01-01</span>
@@ -33,7 +33,7 @@ const Announcements = () => {
         </div>
 
         <div className='flex flex-col gap-4 mt-4'>
-            <div className='bg-yellowLightCustom rounded-md p-4'>
+            <div className='bg-yellow-light-custom rounded-md p-4'>
                 <div className='flex items-center justify-between'>
                     <h2 className='font-medium'>Lorem, ipsum dolor sit amet</h2>
                     <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>2025-01-01</span>
