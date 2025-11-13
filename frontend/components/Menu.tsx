@@ -90,6 +90,12 @@ const menuItems = [
         href: "/list/announcements",
         visible: ["admin", "teacher", "student", "parent"],
       },
+      {
+        icon: "/club.png",
+        label: "Clubs And Chapters",
+        href: "/list/club",
+        visible: ["admin", "teacher", "student", "parent"],
+      },
     ],
   },
   {
